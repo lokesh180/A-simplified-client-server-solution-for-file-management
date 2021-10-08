@@ -1,0 +1,26 @@
+                                  Steps to Perform Execution of the Asyncio Server and Client Architecture
+                                  ------------------------------------------------------------------------
+1) Search for the code server.py in the folder and open the file using the IDLE or VSCode or any IDE.
+2) Run the server code first then the search for the client.py file and do the same, open in any IDE and make it run.
+3) The server and client programs are implemented a bit intractive way.
+4) You can see the Register and Login Options on the console of client.
+5) As you are first user so register, first click on "1" and then the registration form will open for registration.
+6) The server will ask your name and and asks to create the userid and password.
+7) If you are the old user your credentials was stored in our register.txt file, which is in admin folder.
+8) If old user want to register with same credentials the request will be denied.
+9) So you the new user your credentials will store in file then you can login now....
+10) Then again the client program should be run for login and the login should be selected.
+11) credentials will be asked by sever through the client.
+12) If given credentials matches to the registered users credentials then Login access will be granted.
+    Else shows the invaid usid or password or User already logged if user logged and didnt logged out.
+13) Server sends all the commands, which server has code and serve the client.
+14) client program will show the all the commands in its console.
+15) Select the command "1"--->create_folder<foldername> then client asks the folder name to be created.
+16) After creating its shows a clear message, that folder is created or already exists.
+17) Select command "2" ---> writing_file<filename><input> then client console shows msg to give name of folder or (.) same directory
+    in which file should be saved.
+18) Select command "3"----> Read_file<filename> then console asks to give the folder name or (.), in which the file resides.
+19) Select command "4"----> listofdirectories then server sends all the names,sizes,created dates and time and modified time and          dates to client console.
+20) Select command "5"----> Change_path(folder) then folder name should be given the path changes to given folder.
+21) Select command "6"----> command list ,shows the list of commads given by user(complete logic resides in client).
+22) select command "0"----> LogOut ,makes the user logout and storing the changes made in root folder.
